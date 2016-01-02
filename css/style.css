@@ -268,7 +268,7 @@ background-image: url("images/overlay.png"), url("../images/banner.jpg");
 	}
 
 		.select-wrapper:before {
-			content: "ï¸";
+			content: "";
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			font-family: FontAwesome;
@@ -1094,7 +1094,12 @@ background-image: url("images/overlay.png"), url("../images/banner.jpg");
 	}
 
 		.wrapper.style2 {
-			background-color: #f6f6f6;
+                background-attachment: fixed;
+			background-image: url("../images/proback.jpg");
+			background-position: center center;
+			background-size: cover;
+
+
 		}
 
 		.wrapper.style3 {
