@@ -15,7 +15,7 @@ $name = $_POST["fullname"];
 $email=$_POST["email"];
 $message=$_POST["message"];
 
-mail('kshitijtwr@gmail.com','New form submission',"New form submission: Name:$name,Email:$email",Message:$message));
+bool mail('kshitijtwr@gmail.com','New form submission',"New form submission: Name:$name,Email:$email",Message:$message));
 
 header('Location: thank-you.html');
 ?>
