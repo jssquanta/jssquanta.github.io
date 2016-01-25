@@ -196,6 +196,7 @@ font-family: 'Tangerine', serif;
 
 		header.major h2 {
 			font-size: 3em;
+			color: #faebd7;
 		}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
