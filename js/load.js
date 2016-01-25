@@ -1,0 +1,1 @@
+$( "html" ).removeClass( "loading" );
