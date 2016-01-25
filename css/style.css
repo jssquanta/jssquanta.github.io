@@ -43,7 +43,9 @@
 		color: #484848;
 		font-weight: 700;
 	}
-
+         #sen {
+         	color:faebd8;
+         }
 	em, i {
 		font-style: italic;
 	}
@@ -196,7 +198,6 @@ font-family: 'Tangerine', serif;
 
 		header.major h2 {
 			font-size: 3em;
-			color: #faebd7;
 		}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
