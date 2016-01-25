@@ -13,6 +13,16 @@
 		<script src="js/init.js"></script>
 		<script src="js/scroll.js"></script>
 		<script src="js/loader.js"></script>
+		<script type="text/javascript">
+            function main() {
+               img=document.getElementById("anigif");
+               Ani=$("ani");
+               Ani.width=500;
+               Ani.height400;
+               Ani.ctx=Ani.getContext('2d');
+               Ani.ctx.drawImage(img,0,0)
+            }
+        </script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -20,24 +30,10 @@
 			<link rel="stylesheet" href="css/load.css" />
 		</noscript>
 	</head>
-	<body class="landing"></body>
-           <div class="cssload-loader-inner">
-		<div class="cssload-cssload-loader-line-wrap-wrap">
-			<div class="cssload-loader-line-wrap"></div>
-		</div>
-		<div class="cssload-cssload-loader-line-wrap-wrap">
-			<div class="cssload-loader-line-wrap"></div>
-		</div>
-		<div class="cssload-cssload-loader-line-wrap-wrap">
-			<div class="cssload-loader-line-wrap"></div>
-		</div>
-		<div class="cssload-cssload-loader-line-wrap-wrap">
-			<div class="cssload-loader-line-wrap"></div>
-		</div>
-		<div class="cssload-cssload-loader-line-wrap-wrap">
-			<div class="cssload-loader-line-wrap"></div>
-		</div>
-	</div>
+	<body class="landing" onload="main()">
+		<img id="anigif" src="http://www.mathworks.com/matlabcentral/fx_files/21944/2/DancingPeaks.gif">
+        <canvas id="ani"></canvas>
+           
 
 		<!-- Header -->
 			<header id="header" class="alt">
