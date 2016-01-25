@@ -6,7 +6,46 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
+		<style>
+			html {
+				-webkit-transition: background-color 1s;
+				transition: background-color 1s;
+			}
+			html, body { min-height: 100%; }
+			html.loading {
+				background: #333 url('http://code.jquery.com/mobile/1.3.1/images/ajax-loader.gif') no-repeat 50% 50%;
+				-webkit-transition: background-color 0;
+				transition: background-color 0;
+			}
+			body {
+				-webkit-transition: opacity 1s ease-in;
+				transition: opacity 1s ease-in;
+			}
+			html.loading body {
+				opacity: 0;
+				-webkit-transition: opacity 0;
+				transition: opacity 0;
+			}
+			button {
+				background: #00A3FF;
+				color: white;
+				padding: 0.2em 0.5em;
+				font-size: 1.5em;
+			}
+		</style>
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script>
+			var html = document.getElementsByTagName('html')[0];
+			var removeLoading = function() {
+				// In a production application you would remove the loading class when your
+				// application is initialized and ready to go.  Here we just artificially wait
+				// 3 seconds before removing the class.
+				setTimeout(function() {
+					html.className = html.className.replace(/loading/, '');
+				}, 3000);
+			};
+			removeLoading();
+		</script>
 		<script src="js/jquery.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
