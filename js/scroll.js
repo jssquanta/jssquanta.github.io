@@ -2,7 +2,7 @@
  * Shows the fixed header when, scrolling down, the static header disappears
  */
 // Clone the header html into the hidden div
-$("header").clone().appendTo("#fading-header");
+$("header").clone().appendTo("#header");
 
 // Get the header height
 var headerHeight = $("header").outerHeight();
