@@ -260,6 +260,8 @@ color: #ECEBEB;
 	padding-bottom: 50px;
 	color: #f8f8f8;
 	background: url(../img/intro/intro5.jpg) no-repeat center center;
+background-size: cover;
+
 background-attachment: fixed;
 	text-align: center ;
 }
