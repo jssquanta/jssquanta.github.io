@@ -318,6 +318,10 @@ color: #778899;
 .content-section-a p {
 color: #faebd9;
 }
+#credits {
+	background-image: url("/images/overlay.png"),url("../img/boro.jpg");
+background-attachment: fixed;
+}
 
 
 .content-section-b {
