@@ -88,10 +88,7 @@ margin: auto;
 }
 
 .h3_home{font-weight: 300;}
-#whatis{
-background-image: url("images/overlay.png"),url("../img/cyborg.jpg");
-background-attachment: fixed;
-}
+
 
 
 /*own carousel */
@@ -320,7 +317,11 @@ color: #faebd9;
 }
 #credits {
 	background-image: url("images/overlay.png"),url("../img/boro.jpg");
-background-attachment: fixed;
+        background-attachment: fixed;
+        	background-size: cover;
+}
+#credits h3 {
+	color: #d3d3d3;
 }
 
 
