@@ -319,7 +319,7 @@ color: #778899;
 color: #faebd9;
 }
 #credits {
-	background-image: url("/images/overlay.png"),url("../img/boro.jpg");
+	background-image: url("images/overlay.png"),url("../img/boro.jpg");
 background-attachment: fixed;
 }
 
