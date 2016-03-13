@@ -438,6 +438,15 @@ blockquote {
   padding: 0 0 0 16px;
   margin: 0 0 30px;
 }
+#about {
+	text-align:center;
+}
+#about p {
+	text-align:center;
+}
+#about p{
+	font-size: 200;
+}
 blockquote p {
   font-size: 20px;
   line-height: 1.55;
