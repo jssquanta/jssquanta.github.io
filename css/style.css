@@ -440,7 +440,7 @@ blockquote {
 }
 #about {
 	text-align:center;
-	background: url("images/blur.jpg"),url(../img/intro/intro5.jpg) no-repeat center center;
+	background: url(../img/blur.jpg) no-repeat center center;
 	background-size: cover;
 	text-align: center;
 }
