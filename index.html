@@ -178,6 +178,140 @@
     
   </div>
   </div></a></li>
+  <style>
+  	.container{
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+#star{
+  position:absolute;
+  top:50%;
+  left:50%;
+  -webkit-transform:translate(-50%,-50%);
+}
+#star svg{
+  width:50px;
+  -webkit-animation: tada 1.5s infinite ease;
+  animation: tada 1.5s infinite;
+}
+
+#outer_glow{
+  -webkit-animation: explodeem 1s infinite ease;
+  animation: explodeem 1s infinite ease;
+  -webkit-animation-fill-mode:forwards;
+}
+#inner_glow{
+  -webkit-animation: explodeem .5s infinite ease;
+  animation: explodeem .5s infinite ease;
+   -webkit-animation-fill-mode:forwards;
+}
+
+@-webkit-keyframes tada {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+  }
+  10%, 20% {
+    -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg)
+  }
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg)
+  }
+  40%,
+  60%,
+  80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg)
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+  }
+}
+@keyframes tada {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    -ms-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+  }
+  10%,
+  20% {
+    -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+    -ms-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg)
+  }
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    -ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg)
+  }
+  40%,
+  60%,
+  80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    -ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg)
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    -ms-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+  }
+}
+
+@keyframes explodeem {
+  0% {
+    opacity:0;
+  }
+
+  50% {
+    opacity:1;
+  }
+
+  100% {
+    opacity:0;
+  }
+}
+
+@-webkit-keyframes explodeem {
+  0% {
+    opacity:0;
+  }
+
+  50% {
+    opacity:1;
+  }
+
+  100% {
+    opacity:0;
+  }
+}
+
+/* Credentials */
+
+.me{
+  position:absolute;
+  color:#dadada;
+  bottom:10px;
+  right:10px;
+  width:100%;
+  text-align:center;
+  text-decoration:none;
+  font-family:Helvetica, sans-serif;
+}
+.me:hover{
+  color:skyblue;
+}
+  </style>
   <li class="menuItem"><a href="#screen">Zealicon</a></li>
 					<li class="menuItem"><a href="elements.html">Contact</a></li>
 				</ul>
@@ -235,7 +369,7 @@
                 </div>
 				
                 <div class="col-sm-6 wow fadeInRightBig"  data-animation-delay="200">   
-                    <h3 class="section-heading" id="blitz">Blitzkrieg</h3>
+                    <h3 class="section-heading" id="blitz" style=" color:#3f607f;">Blitzkrieg</h3>
 					<div class="sub-title lead3"></div>
                     <p class="lead">
 						The premier line follower championship of the fest, BLITZKRIEG is the battle speed , wisdom, accuracy and precision. The task is to build a line follower which will have to traverse the path as fast as possible, passing through checkpoints, choosing the right lines to follow, negotiate sharp twists and turns. Experience the enthralling race against time, indulge in the technology and creativity, and witness these machines follow their paths- but only one lead to glory.</div>  			
