@@ -288,6 +288,9 @@ filter: alpha(opacity=95) !important;
 	border: 1px solid #fff;
 	color: #fff;
 }
+#blitz {
+	font-color: 3f607f;
+}
 
 .mybutton_cyano{
 	border: 1px solid #4A90BE;
