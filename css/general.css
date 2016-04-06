@@ -460,6 +460,11 @@ background-attachment: fixed;
 
  
 }
+.contu {
+background-image: url("../img/TheImitationGame_1.jpg");
+background-attachment: fixed;
+	background-size: cover;	
+}
 .content-section-a h3 {
 color: #778899;
 }
