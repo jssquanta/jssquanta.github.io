@@ -464,6 +464,7 @@ background-attachment: fixed;
 background-image: url("../img/TheImitationGame_1.jpg");
 background-attachment: fixed;
 	background-size: cover;	
+	color: #ffffff;
 }
 .content-section-a h3 {
 color: #778899;
@@ -475,6 +476,7 @@ color: #faebd9;
 	background-image: url("images/overlay.png"),url("../img/boro.jpg");
         background-attachment: fixed;
         	background-size: cover;
+        	
 }
 #credits h3 {
 	color: #d3d3d3;
