@@ -30,10 +30,9 @@ p {
   border-radius: 50%;
   height: 200px; 
   width:200px;
-  background-color: #2badd9;
+
   float: right;
-  -webkit-shape-outside: inset(1% round 50%);
-          shape-outside: inset(1% round 50%);
+
   margin-left: 20px;
   margin-bottom: 10px;
 }
